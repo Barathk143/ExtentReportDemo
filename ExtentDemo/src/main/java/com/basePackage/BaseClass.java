@@ -40,6 +40,7 @@ public class BaseClass {
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions= new ChromeOptions();
+		chromeOptions.setBinary("C:\\Downloads\chromedriver_linux64");
 		chromeOptions.addArguments("headless");
 		chromeOptions.addArguments("window-size=1980,1080");
 	    driver = new ChromeDriver(chromeOptions);
