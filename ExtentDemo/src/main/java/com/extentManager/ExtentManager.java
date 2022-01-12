@@ -25,7 +25,7 @@ public class ExtentManager {
 		extent.setSystemInfo("HostName", "MyHost");
 		extent.setSystemInfo("ProjectName", "OrangeHRM");
 		extent.setSystemInfo("Tester", "Hitendra");
-		extent.setSystemInfo("OS", "Win10");
+		extent.setSystemInfo("OS", "ubuntu");
 		extent.setSystemInfo("Browser", "Chrome");
 	}
 	public static void endReport() {
