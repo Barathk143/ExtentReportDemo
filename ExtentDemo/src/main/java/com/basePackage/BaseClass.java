@@ -43,7 +43,7 @@ public class BaseClass {
 		chromeOptions.addArguments("headless");
 		chromeOptions.addArguments("window-size=1980,1080");
 	    driver = new ChromeDriver(chromeOptions);
-		chromeOptions.setBinary("ExtentDemo/Chromedriver.exe");
+		chromeOptions.setBinary("Home/Downloads/chromedriver_win32/Chromedriver.exe");
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/");
 	}
