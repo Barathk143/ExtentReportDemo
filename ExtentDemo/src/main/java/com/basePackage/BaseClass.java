@@ -43,7 +43,7 @@ public class BaseClass {
 		chromeOptions.addArguments("headless");
 		//chrome_options.add_argument("--disable-extensions");
                // chrome_options.add_argument("--disable-gpu");
-		chrome_options.add_argument("--no-sandbox");
+		//chrome_options.add_argument("--no-sandbox");
 		chromeOptions.addArguments("window-size=1980,1080");
 	        driver = new ChromeDriver(chromeOptions);
 		//chromeOptions.setBinary("Home/Downloads/chromedriver_win32/Chromedriver.exe");
